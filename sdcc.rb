@@ -12,9 +12,9 @@ class Sdcc < Formula
   end
 
   bottle do
-    sha256 el_captain: "d46fdad8f291ea90162e7218ec3d43468de8b85680da5f1088617be8521005f5"
-    sha256 yosemite: "b5cd6950c3dd7b2d7399e0a7eabdd02992a34b8ec0c1c9fc9e46ddc7f561fce6"
-    sha256 mavericks: "73aecffe0f2ec715f532c09ef0f95d3a045582cc65b5e10c48208eac5bfe655e"
+    sha256 el_captain:  "d46fdad8f291ea90162e7218ec3d43468de8b85680da5f1088617be8521005f5"
+    sha256 yosemite:    "b5cd6950c3dd7b2d7399e0a7eabdd02992a34b8ec0c1c9fc9e46ddc7f561fce6"
+    sha256 mavericks:   "73aecffe0f2ec715f532c09ef0f95d3a045582cc65b5e10c48208eac5bfe655e"
   end
 
   option "with-avr-port", "Enables the AVR port (UNSUPPORTED, MAY FAIL)"
@@ -23,8 +23,8 @@ class Sdcc < Formula
   deprecated_option "enable-avr-port" => "with-avr-port"
   deprecated_option "enable-xa51-port" => "with-xa51-port"
 
-  depends_on "gputils"
   depends_on "boost"
+  depends_on "gputils"
 
   # SDCC Doesn't build huge-stack-auto by default for mcs51, but it
   # is needed by Contiki and others. This simple patch enables it to build.
