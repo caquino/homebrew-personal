@@ -12,7 +12,6 @@ class Sdcc < Formula
   end
 
   bottle do
-    revision 1
     sha256 "d46fdad8f291ea90162e7218ec3d43468de8b85680da5f1088617be8521005f5" => :el_capitan
     sha256 "b5cd6950c3dd7b2d7399e0a7eabdd02992a34b8ec0c1c9fc9e46ddc7f561fce6" => :yosemite
     sha256 "73aecffe0f2ec715f532c09ef0f95d3a045582cc65b5e10c48208eac5bfe655e" => :mavericks
