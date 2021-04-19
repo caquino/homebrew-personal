@@ -5,12 +5,6 @@ class Sdcc < Formula
   sha256 "f82978d1614244b22e093402c0a4de1f688a07c807b2980126c964eb3df85fa9"
   head "https://svn.code.sf.net/p/sdcc/code/trunk/sdcc"
 
-  bottle do
-    sha256 el_captain:  "d46fdad8f291ea90162e7218ec3d43468de8b85680da5f1088617be8521005f5"
-    sha256 yosemite:    "b5cd6950c3dd7b2d7399e0a7eabdd02992a34b8ec0c1c9fc9e46ddc7f561fce6"
-    sha256 mavericks:   "73aecffe0f2ec715f532c09ef0f95d3a045582cc65b5e10c48208eac5bfe655e"
-  end
-
   option "with-avr-port", "Enables the AVR port (UNSUPPORTED, MAY FAIL)"
   option "with-xa51-port", "Enables the xa51 port (UNSUPPORTED, MAY FAIL)"
 
